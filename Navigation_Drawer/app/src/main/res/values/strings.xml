@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Navigation_Drawer</string>
+    <string name="manoj_kumar">Manoj Kumar</string>
+
+    <string name="navigationDrawerOpen">Open navigation drawer</string>
+    <string name="navigationDrawerClose">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

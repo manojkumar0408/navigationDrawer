@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/navItemCamera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/navItemGallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="gallery" />
+        <item
+            android:id="@+id/navItemSettings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="settings" />
+    </group>
+
+    <group android:id="@+id/group_menu">
+        <item
+            android:id="@+id/navItemPictures"
+            android:title="pictures" />
+        <item
+            android:id="@+id/navItemAdvanced"
+            android:title="advanced" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/navItemSend"
+                android:icon="@drawable/ic_menu_send"
+                android:title="send" />
+            <item
+                android:id="@+id/navItemShare"
+                android:icon="@drawable/ic_menu_share"
+                android:title="share" />
+        </menu>
+    </item>
+</menu>
